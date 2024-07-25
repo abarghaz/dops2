@@ -21,7 +21,7 @@ services:
     image: 'toxreader/laravel-app'
     platform: linux/amd64 
     volumes:
-      - /Users/tarikabarghaz/UM6P/DEVOPS/Practice2/laravel-app:/var/www/html/
+      - . /var/www/html/
     ports:
       - "8008:80"
 
