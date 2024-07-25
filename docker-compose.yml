@@ -11,7 +11,7 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: 1
       MYSQL_PASSWORD: ""
     ports:
-      - "3307:3306"
+      - "3306:3306"
 
   # Create the php-apache service
   php-apache-environment:
